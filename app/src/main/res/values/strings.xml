@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CapstoneLayout</string>
+    <string name="job1">Job 123456</string>
+    <string name="job2">Job 999665</string>
+    <string name="job3">Job 487852</string>
+    <string name="job4">Job 111920</string>
+    <string name="job5">Job 598632</string>
+    <string name="job6">Job 856325</string>
+    <string name="job7">Job 589632</string>
+    <string name="job8">Job 589647</string>
+</resources>

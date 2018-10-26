@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Job">
+
+    <TextView
+        android:id="@+id/job_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/job1"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/job_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:paddingStart="10dp"
+        android:text="Project: "
+        app:layout_constraintTop_toBottomOf="@id/job_number"/>
+
+    <TextView
+        android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="Ringo's Dinner"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/job_number"
+        app:layout_constraintLeft_toRightOf="@id/job_project"/>
+
+    <TextView
+        android:id="@+id/job_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="Address: "
+        app:layout_constraintTop_toBottomOf="@id/job_title"/>
+
+    <TextView
+        android:id="@+id/job_address_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="350 7th Ave, Brooklyn, NY 11215"
+        app:layout_constraintTop_toBottomOf="@id/job_title"
+        app:layout_constraintLeft_toRightOf="@id/job_address"/>
+
+    <TextView
+        android:id="@+id/job_foreman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="Project Foremen: "
+        app:layout_constraintTop_toBottomOf="@id/job_address"/>
+
+    <TextView
+        android:id="@+id/job_foreman_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="James Folder"
+        app:layout_constraintTop_toBottomOf="@id/job_address"
+        app:layout_constraintLeft_toRightOf="@id/job_foreman"/>
+
+    <TextView
+        android:id="@+id/job_discription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="Discription:"
+        app:layout_constraintTop_toBottomOf="@id/job_foreman"/>
+
+    <TextView
+        android:id="@+id/job_discription_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Insert Discription"
+        android:paddingStart="30dp"
+        app:layout_constraintTop_toBottomOf="@id/job_discription"/>
+
+    <TextView
+        android:id="@+id/job_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:text="Tasks"
+        app:layout_constraintTop_toBottomOf="@id/job_discription_field"/>
+
+    <TextView
+        android:id="@+id/job_plans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:text="Access Plans"
+        app:layout_constraintTop_toBottomOf="@id/job_tasks"/>
+
+
+</android.support.constraint.ConstraintLayout>
